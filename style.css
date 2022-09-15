@@ -316,7 +316,12 @@ header .navbar a:hover {
 .wrapper .icon span i{
   font-size: 25px;
   line-height: 60px;
-}
+  }
+
+  .wrapper . span a{
+    color: #000;
+  }
+
 .wrapper .icon .tooltip{
   background: #fff;
   position: absolute;
@@ -333,7 +338,18 @@ header .navbar a:hover {
 }
 
 
-
+.wrapper .whatsapp span a{
+color: #27ae60;
+}
+.wrapper .instagram span a{
+color: #e1306c;
+}
+.wrapper .github span a{
+color: #333;
+}
+.wrapper .discord span a{
+color: #7289d9;
+}
 
 .wrapper .icon:hover .tooltip{
   opacity: 1;
@@ -368,7 +384,7 @@ header .navbar a:hover {
 .wrapper .discord:hover span,
 .wrapper .discord:hover .tooltip,
 .wrapper .discord:hover .tooltip:before{
-  background: rgb(114, 137, 217);
+  background: #7289d9;
 }
 
 .wrapper .icon .tooltip:before{
