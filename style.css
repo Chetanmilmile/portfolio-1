@@ -216,6 +216,41 @@ header .navbar a:hover {
   color: var(--green);
 }
 
+.project .content {
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+.project .content h3 {
+  font-size: 4rem;
+  color: #222;
+  text-transform: uppercase;
+}
+.project .content h3 span {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.project .content li {
+  color: #222;
+  font-size: 2rem;
+  line-height: 2;
+}
+ .project .content a {
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: #222;
+  text-decoration: none;
+}
+.project section{
+  padding: 1rem;
+  margin: 0;
+  min-height: 0;
+}
+.project kbd{
+  text-shadow: 2px 2px 5px var(--green);
+}
+
 .contact .row {
   display: flex;
   align-items: center;
