@@ -10,13 +10,13 @@ VanillaTilt.init(document.querySelectorAll('.tilt'),{
 
 let date = new Date();
 let year = date.getFullYear();
-let age = Math.abs(year - 2000);
+let age = Math.abs(year - 1998);
 document.getElementById('result').innerHTML = age;
 
 let inputs = document.querySelectorAll('input');
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzv7bu7aWc6KGVh3IM1p7TEa-A7MToOgB7C4nLf0TP5DISRP8PNN3uwFOsTuxF7iHVs4A/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwpSFijJGJkl96V8fmyGbg4i4BUTH0pe-teNd1VT3wLFTKR0hngPp7hue3enKR-CG0o/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {

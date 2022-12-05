@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Signika+Negative:wght@300;400&family=Ubuntu:wght@300;500&display=swap");
 
 :root {
-  --green: #27ae60;
+  --orange: #ed0de2;
 }
 
 * {
@@ -34,7 +34,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--green);
+  background: var(--orange);
 }
 
 body {
@@ -56,7 +56,7 @@ section {
   cursor: pointer;
 }
 .btn:hover {
-  background: var(--green);
+  background: var(--orange);
   letter-spacing: 0.2rem;
 }
 
@@ -84,7 +84,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: var(--green);
+  color: var(--orange);
 }
 
 
@@ -122,7 +122,7 @@ header .navbar a:hover {
   width: 25rem;
   border-radius: 50%;
   object-fit: cover;
-  border: 1rem solid var(--green);
+  border: 1rem solid var(--orange);
 }
 
 .home .content h3 {
@@ -132,7 +132,7 @@ header .navbar a:hover {
 }
 
 .home .content h3 span {
-  color: var(--green);
+  color: var(--orange);
   text-transform: uppercase;
 }
 
@@ -152,7 +152,7 @@ header .navbar a:hover {
 
 .heading span {
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--orange);
 }
 
 .about .row {
@@ -184,7 +184,7 @@ header .navbar a:hover {
 }
 
 .about .row .content h3 span {
-  color: var(--green);
+  color: var(--orange);
 }
 
 .about .row .content .info {
@@ -213,7 +213,7 @@ header .navbar a:hover {
 }
 
 .about .row .content .box-container .box p span {
-  color: var(--green);
+  color: var(--orange);
 }
 
 .project .content {
@@ -227,7 +227,7 @@ header .navbar a:hover {
   text-transform: uppercase;
 }
 .project .content h3 span {
-  color: var(--green);
+  color: var(--orange);
   text-transform: uppercase;
 }
 
@@ -248,7 +248,7 @@ header .navbar a:hover {
   min-height: 0;
 }
 .project kbd{
-  text-shadow: 2px 2px 5px var(--green);
+  text-shadow: 2px 2px 5px var(--orange);
 }
 
 .contact .row {
@@ -296,7 +296,7 @@ header .navbar a:hover {
 .contact .row form .inputBox input:focus,
 .contact .row form .box:focus,
 .contact .row form textarea:focus{
-  border-color: var(--green);
+  border-color: var(--orange);
 }
 
 .contact .row form .inputBox input{
